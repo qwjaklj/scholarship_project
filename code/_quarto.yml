@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "DSAN-5200 Final Project"
+  navbar:
+    background: secondary
+    left:
+      - href: index.ipynb
+        text: Introduction
+      - href: data_cleaning.ipynb
+        text: Data Cleaning
+      - href: ml.ipynb
+        text: Machine Learning
+      - href: Viz.ipynb
+        text: Visualization
+format:
+  html:
+    theme: [cosmo, "styles.scss"]
+    toc: true
+    embed-resources: true
+    self-contained: true
+    code-fold: true
+    code-summary: "Show the code"
+
+
+
